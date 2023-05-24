@@ -114,9 +114,48 @@ void menu2_2(void) {
 		}
 	}
 }
+//================================
+//2.3分支的一级菜单
+void dispMenu2_3(void) {
+	local(2, 20);  printf("C分枝结构编程\n");
+	local(1, 24);  printf("1. if语句\n");
+	colum_n(24);  printf("2. if-else语句\n");
+	colum_n(24);  printf("3. if-else if语句\n");
+	colum_n(24);  printf("4. switch语句\n");
+	colum_n(24);  printf("5. 三目运算符\n");
+	colum_n(24);  printf("6. goto语句\n");
+	colum_n(24);  printf("7. break语句\n");
+	colum_n(24);  printf("8. continue语句\n");
+
+	local(2, 24);  printf("0. 返回\n");
+	local(2, 20);  printf("请选择：");
+}
+#include "menu2_3.h"
+//2.3分支的二级菜单
+void menu2_3(void) {
+	char cho2_3;
+	while (1) {
+		system("cls");     //调用系统命令，清屏
+		dispMenu2_3();
+		cho2_3 = getchar();     getchar();//??
+		if (cho2_3 == '0') break;
+		switch (cho2_3)
+		{
+		case '1': m2_3_1();     break;
+		case '2': m2_3_2();     break;
+		case '3': m2_3_3();     break;
+		case '4': m2_3_4();     break;
+		case '5': m2_3_5();     break;
+		case '6': m2_3_6();     break;
+		case '7': m2_3_7();     break;
+		case '8': m2_3_8();     break;
+
+		default:       break;
+		}
+	}
+}
 
 //=================
-void menu2_3(void) { printf("正在编写中\n");  getchar(); }
 void menu2_4(void) { printf("正在编写中\n");  getchar(); }
 void menu2_5(void) { printf("正在编写中\n");  getchar(); }
 void menu2_6(void) { printf("正在编写中\n");  getchar(); }

@@ -24,6 +24,9 @@
     <ClInclude Include="menu2_2.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="menu2_3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -36,6 +39,9 @@
       <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="menu2_2.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="menu2_3.cpp">
       <Filter>资源文件</Filter>
     </ClCompile>
   </ItemGroup>
