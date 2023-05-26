@@ -84,17 +84,7 @@ void m2_3_4(void) {  //4.switch语句
 	printf("注：如果a=1，则输出a=1，如果a=2，则输出a=2，如果a=3，则输出a=3，如果a不等于1、2、3，则输出a=0。\n");
 	getchar();
 }
-void m2_3_5(void) {  //5.三目运算符
-	system("cls");
-	printf("\n\n    三目运算符\n\n");
-	printf("表达式1?表达式2:表达式3\n");
-	printf("注：如果表达式1为真，则执行表达式2，否则执行表达式3。\n");
-	printf("例：\n");
-	printf("a>b?a:b\n");
-	printf("注：如果a>b为真，则返回a，否则返回b。\n");
-	getchar();
-}
-void m2_3_6(void) {  //6.goto语句
+void m2_3_5(void) {  //5.goto语句
 	system("cls");
 	printf("\n\n    goto语句\n\n");
 	printf("goto 标号;\n");
@@ -106,7 +96,7 @@ void m2_3_6(void) {  //6.goto语句
 	printf("注：输出b。\n");
 	getchar();
 }
-void m2_3_7(void) {  //7.break语句
+void m2_3_6(void) {  //6.break语句
 	system("cls");
 	printf("\n\n    break语句\n\n");
 	printf("break;\n");
@@ -121,7 +111,7 @@ void m2_3_7(void) {  //7.break语句
 	printf("注：输出01234。\n");
 	getchar();
 }
-void m2_3_8(void) {  //8.continue语句
+void m2_3_7(void) {  //7.continue语句
 	system("cls");
 	printf("\n\n    continue语句\n\n");
 	printf("continue;\n");

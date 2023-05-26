@@ -31,6 +31,7 @@ void colum_n(int n) {
 	for (int i = 0; i < n; i++)  printf(" ");
 }
 //=============================
+//2.1分支的一级菜单
 void dispMenu2_1(void) {
 	local(2, 20);  printf("C基本数据功能\n");
 	local(1, 24);  printf("1. 数据分类\n");
@@ -47,7 +48,7 @@ void dispMenu2_1(void) {
 	local(2, 20);  printf("请选择：");
 }
 #include "menu2_1.h" 
-
+//2.1分支的二级菜单
 void menu2_1(void) {
 	char cho2_1;
 	while (1) {
@@ -122,10 +123,9 @@ void dispMenu2_3(void) {
 	colum_n(24);  printf("2. if-else语句\n");
 	colum_n(24);  printf("3. if-else if语句\n");
 	colum_n(24);  printf("4. switch语句\n");
-	colum_n(24);  printf("5. 三目运算符\n");
-	colum_n(24);  printf("6. goto语句\n");
-	colum_n(24);  printf("7. break语句\n");
-	colum_n(24);  printf("8. continue语句\n");
+	colum_n(24);  printf("5. goto语句\n");
+	colum_n(24);  printf("6. break语句\n");
+	colum_n(24);  printf("7. continue语句\n");
 
 	local(2, 24);  printf("0. 返回\n");
 	local(2, 20);  printf("请选择：");
@@ -148,7 +148,6 @@ void menu2_3(void) {
 		case '5': m2_3_5();     break;
 		case '6': m2_3_6();     break;
 		case '7': m2_3_7();     break;
-		case '8': m2_3_8();     break;
 
 		default:       break;
 		}
@@ -156,7 +155,45 @@ void menu2_3(void) {
 }
 
 //=================
-void menu2_4(void) { printf("正在编写中\n");  getchar(); }
+//2.4分支的一级菜单
+void dispMenu2_4(void) {
+	local(2, 20);  printf("C循环结构编程\n");
+	local(1, 24);  printf("1. while语句\n");
+	colum_n(24);  printf("2. do-while语句\n");
+	colum_n(24);  printf("3. for语句\n");
+	colum_n(24);  printf("4. break语句\n");
+	colum_n(24);  printf("5. continue语句\n");
+	colum_n(24);  printf("6. goto语句\n");
+	colum_n(24);  printf("7. 无限循环\n");
+	colum_n(24);  printf("8. 循环嵌套\n");;
+
+	local(2, 24);  printf("0. 返回\n");
+	local(2, 20);  printf("请选择：");
+}
+#include "menu2_4.h"
+//2.4分支的二级菜单
+void menu2_4(void) {
+	char cho2_4;
+	while (1) {
+		system("cls");     //调用系统命令，清屏
+		dispMenu2_4();
+		cho2_4 = getchar();     getchar();//??
+		if (cho2_4 == '0') break;
+		switch (cho2_4)
+		{
+		case '1': m2_4_1();     break;
+		case '2': m2_4_2();     break;
+		case '3': m2_4_3();     break;
+		case '4': m2_4_4();     break;
+		case '5': m2_4_5();     break;
+		case '6': m2_4_6();     break;
+		case '7': m2_4_7();     break;
+		case '8': m2_4_8();     break;
+
+		default:       break;
+		}
+	}
+}
 void menu2_5(void) { printf("正在编写中\n");  getchar(); }
 void menu2_6(void) { printf("正在编写中\n");  getchar(); }
 void menu2_7(void) { printf("正在编写中\n");  getchar(); }
