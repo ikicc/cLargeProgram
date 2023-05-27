@@ -194,6 +194,42 @@ void menu2_4(void) {
 		}
 	}
 }
+//=================
+//2.5分支的一级菜单
+void dispMenu2_5(void) {
+	local(2, 20);  printf("C函数结构\n");
+	local(1, 24);  printf("1. 函数的定义\n");
+	colum_n(24);  printf("2. 函数的调用\n");
+	colum_n(24);  printf("3. 函数的参数传递\n");
+	colum_n(24);  printf("4. 函数的返回值\n");
+	colum_n(24);  printf("5. 函数的递归调用\n");
+	colum_n(24);  printf("6. 函数的嵌套调用\n");
+	colum_n(24);  printf("7. 函数的声明\n");
+}
+/*#include "menu2_5.h"
+//2.5分支的二级菜单
+void menu2_5(void) {
+	char cho2_5;
+	while (1) {
+		system("cls");     //调用系统命令，清屏
+		dispMenu2_5();
+		cho2_5 = getchar();     getchar();//??
+		if (cho2_5 == '0') break;
+		switch (cho2_5)
+		{
+		case '1': m2_5_1();     break;
+		case '2': m2_5_2();     break;
+		case '3': m2_5_3();     break;
+		case '4': m2_5_4();     break;
+		case '5': m2_5_5();     break;
+		case '6': m2_5_6();     break;
+		case '7': m2_5_7();     break;
+
+		default:       break;
+		}
+	}
+}*/
+
 void menu2_5(void) { printf("正在编写中\n");  getchar(); }
 void menu2_6(void) { printf("正在编写中\n");  getchar(); }
 void menu2_7(void) { printf("正在编写中\n");  getchar(); }
