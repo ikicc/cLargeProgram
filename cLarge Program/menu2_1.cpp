@@ -11,7 +11,7 @@ void m2_1_1(void) {    //1. 数据分类——肖洪生
 	printf("故整形细分有六种");
     getchar();
 }
-void m2_1_2(void) {    //2. 取值范围——肖洪生 
+void m2_1_2(void) {    //2. 取值范围
 	system("cls");     //调用系统命令，清屏
 	printf("\n\n    C取值范围 \n\n  ");
 	printf("整形取值范围：\n");
@@ -28,7 +28,7 @@ void m2_1_2(void) {    //2. 取值范围——肖洪生
 	printf("long double: %Le ~ %Le\n", LDBL_MIN, LDBL_MAX);
 	getchar();
 }
-void m2_1_3(void) {    //3. 存储字节——肖洪生 
+void m2_1_3(void) {    //3. 存储字节
 	system("cls");     //调用系统命令，清屏
 	printf("\n\n    C存储字节 \n\n  ");
 	printf("整形存储字节：\n");
