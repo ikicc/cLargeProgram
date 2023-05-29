@@ -27,7 +27,7 @@ void m2_1_2(void) {    //2. 取值范围
 	printf("double: %e ~ %e\n", DBL_MIN, DBL_MAX);
 	printf("long double: %Le ~ %Le\n", LDBL_MIN, LDBL_MAX);
 	getchar();
-}
+} 
 void m2_1_3(void) {    //3. 存储字节
 	system("cls");     //调用系统命令，清屏
 	printf("\n\n    C存储字节 \n\n  ");

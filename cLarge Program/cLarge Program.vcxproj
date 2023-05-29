@@ -132,6 +132,7 @@
     <ClInclude Include="menu2_2.h" />
     <ClInclude Include="menu2_3.h" />
     <ClInclude Include="menu2_4.h" />
+    <ClInclude Include="menu2_5.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cLargeProgramm.cpp" />
@@ -140,6 +141,7 @@
     <ClCompile Include="menu2_2.cpp" />
     <ClCompile Include="menu2_3.cpp" />
     <ClCompile Include="menu2_4.cpp" />
+    <ClCompile Include="menu2_5.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

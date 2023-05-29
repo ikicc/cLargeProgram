@@ -205,8 +205,10 @@ void dispMenu2_5(void) {
 	colum_n(24);  printf("5. 函数的递归调用\n");
 	colum_n(24);  printf("6. 函数的嵌套调用\n");
 	colum_n(24);  printf("7. 函数的声明\n");
+	local(2, 24);  printf("0. 返回\n");
+	local(2, 20);  printf("请选择：");
 }
-/*#include "menu2_5.h"
+#include "menu2_5.h"
 //2.5分支的二级菜单
 void menu2_5(void) {
 	char cho2_5;
@@ -228,8 +230,6 @@ void menu2_5(void) {
 		default:       break;
 		}
 	}
-}*/
-
-void menu2_5(void) { printf("正在编写中\n");  getchar(); }
+}
 void menu2_6(void) { printf("正在编写中\n");  getchar(); }
 void menu2_7(void) { printf("正在编写中\n");  getchar(); }
