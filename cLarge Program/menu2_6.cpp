@@ -1,3 +1,4 @@
+//menu2_6.cpp --2.6 数组
 #include <stdio.h>
 #include <iostream>
 void m2_6_1(void) {   //1.数组的定义

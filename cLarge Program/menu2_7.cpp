@@ -1,3 +1,4 @@
+//menu2_7.cpp --2.7 指针
 #include <stdio.h>
 #include <iostream>
 void m2_7_1(void) {   //1.指针的定义

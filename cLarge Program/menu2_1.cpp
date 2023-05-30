@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include <iostream>
 void m2_1_1(void) {    //1. 数据分类
-
 	system("cls");     //调用系统命令，清屏
 	printf("\n\n    C数据分类 \n\n  ");
 	printf("分为 整形 int ,实型 float，字符型 char\n");

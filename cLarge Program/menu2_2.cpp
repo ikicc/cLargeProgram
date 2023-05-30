@@ -1,3 +1,4 @@
+//menu2_2.cpp -- 2.2.运算符
 #include <stdio.h>
 #include <iostream>
 void m2_2_1(void) {  //1.格式符与格式串

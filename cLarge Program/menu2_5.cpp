@@ -1,3 +1,4 @@
+//menu2_5.cpp -- 2.5函数
 #include <stdio.h>
 #include <iostream>
 void m2_5_1(void) {   //1.函数的定义

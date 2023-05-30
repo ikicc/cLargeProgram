@@ -1,3 +1,4 @@
+//menu2_4.cpp -- 2.4—≠ª∑”Ôæ‰
 #include <stdio.h>
 #include <iostream>
 void m2_4_1(void) { //1.while”Ôæ‰
