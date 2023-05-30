@@ -231,5 +231,41 @@ void menu2_5(void) {
 		}
 	}
 }
-void menu2_6(void) { printf("正在编写中\n");  getchar(); }
+//=================
+//2.6分支的一级菜单
+void dispMenu2_6(void) {
+	local(2, 20);  printf("C数组结构\n");
+	local(1, 24);  printf("1. 数组的定义\n");
+	colum_n(24);  printf("2. 数组的初始化\n");
+	colum_n(24);  printf("3. 数组的引用\n");
+	colum_n(24);  printf("4. 数组的输入输出\n");
+	colum_n(24);  printf("5. 一维数组\n");
+	colum_n(24);  printf("6. 二维数组\n");
+	colum_n(24);  printf("7. 字符数组\n");
+	local(2, 24);  printf("0. 返回\n");
+	local(2, 20);  printf("请选择：");
+}
+#include "menu2_6.h"
+//2.6分支的二级菜单
+void menu2_6(void) {
+	char cho2_6;
+	while (1) {
+		system("cls");     //调用系统命令，清屏
+		dispMenu2_6();
+		cho2_6 = getchar();     getchar();//??
+		if (cho2_6 == '0') break;
+		switch (cho2_6)
+		{
+		case '1': m2_6_1();     break;
+		case '2': m2_6_2();     break;
+		case '3': m2_6_3();     break;
+		case '4': m2_6_4();     break;
+		case '5': m2_6_5();     break;
+		case '6': m2_6_6();     break;
+		case '7': m2_6_7();     break;
+
+		default:       break;
+		}
+	}
+}
 void menu2_7(void) { printf("正在编写中\n");  getchar(); }
