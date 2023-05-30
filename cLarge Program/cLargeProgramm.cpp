@@ -268,4 +268,40 @@ void menu2_6(void) {
 		}
 	}
 }
-void menu2_7(void) { printf("正在编写中\n");  getchar(); }
+//=================
+//2.7分支的一级菜单
+void dispMenu2_7(void) {
+	local(2, 20);  printf("C指针结构\n");
+	local(1, 24);  printf("1. 指针的定义\n");
+	colum_n(24);  printf("2. 指针的使用\n");
+	colum_n(24);  printf("3. 指针的输入输出\n");
+	colum_n(24);  printf("4. 指针与数组\n");
+	colum_n(24);  printf("5. 指针与函数\n");
+	colum_n(24);  printf("6. 指针与指针\n");
+	colum_n(24);  printf("7. main函数的参数\n");
+	local(2, 24);  printf("0. 返回\n");
+	local(2, 20);  printf("请选择：");
+}
+#include "menu2_7.h"
+//2.7分支的二级菜单
+void menu2_7(void) {
+	char cho2_7;
+	while (1) {
+		system("cls");     //调用系统命令，清屏
+		dispMenu2_7();
+		cho2_7 = getchar();     getchar();//??
+		if (cho2_7 == '0') break;
+		switch (cho2_7)
+		{
+		case '1': m2_7_1();     break;
+		case '2': m2_7_2();     break;
+		case '3': m2_7_3();     break;
+		case '4': m2_7_4();     break;
+		case '5': m2_7_5();     break;
+		case '6': m2_7_6();     break;
+		case '7': m2_7_7();     break;
+
+		default:       break;
+		}
+	}
+}
