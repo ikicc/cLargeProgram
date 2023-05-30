@@ -1,7 +1,7 @@
 //menu2_1.cpp
 #include <stdio.h>
 #include <iostream>
-void m2_1_1(void) {    //1. 数据分类——肖洪生 
+void m2_1_1(void) {    //1. 数据分类
 
 	system("cls");     //调用系统命令，清屏
 	printf("\n\n    C数据分类 \n\n  ");
