@@ -4,8 +4,4 @@ void m2_2_2(void);
 void m2_2_3(void);
 void m2_2_4(void);
 void m2_2_5(void);
-void m2_2_6(void);
-void m2_2_7(void);
-void m2_2_8(void);
-void m2_2_9(void);
 

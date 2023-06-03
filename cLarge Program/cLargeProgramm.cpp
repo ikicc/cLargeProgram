@@ -77,15 +77,11 @@ void menu2_1(void) {
 //2.2分支的一级菜单
 void dispMenu2_2(void) {
 	local(2, 20);  printf("C顺序结构编程\n");
-	local(1, 24);  printf("1. 格式符与格式串\n");
-	colum_n(24);  printf("2. 键盘输入scanf()\n");
-	colum_n(24);  printf("3. 屏幕输出printf()\n");
-	colum_n(24);  printf("4. 算术运算符\n");
-	colum_n(24);  printf("5. 逻辑运算符\n");
-	colum_n(24);  printf("6. 关系运算符\n");
-	colum_n(24);  printf("7. 位运算符\n");
-	colum_n(24);  printf("8. 赋值运算符\n");
-	colum_n(24);  printf("9. 运算符优先级\n");
+	local(1, 24);  printf("1. 程序结构\n");
+	colum_n(24);  printf("2. 语句与复合\n");
+	colum_n(24);  printf("3. ASCll码\n");
+	colum_n(24);  printf("4. 周长与面积\n");
+	colum_n(24);  printf("5. 输出图案\n");
 
 	local(2, 24);  printf("0. 返回\n");
 	local(2, 20);  printf("请选择：");
@@ -106,10 +102,6 @@ void menu2_2(void) {
 			case '3': m2_2_3();     break;
 			case '4': m2_2_4();     break;
             case '5': m2_2_5();     break;
-			case '6': m2_2_6();     break;
-			case '7': m2_2_7();     break;
-			case '8': m2_2_8();     break;
-			case '9': m2_2_9();     break;
 
 		default:   break;
 		}

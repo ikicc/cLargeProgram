@@ -1,133 +1,111 @@
 //menu2_2.cpp -- 2.2.运算符
 #include <stdio.h>
 #include <iostream>
-void m2_2_1(void) {  //1.格式符与格式串
-	system("cls");     //调用系统命令，清屏
-	printf("\n\n    格式符与格式串\n\n");
-	printf("%%d:整型\n");
-	printf("%%f:浮点型\n");
-	printf("%%c:字符型\n");
-	printf("%%s:字符串型\n");
-	printf("%%x:十六进制\n");
-	printf("%%o:八进制\n");
-	printf("%%e:科学计数法\n");
-	printf("%%p:指针\n");
-	printf("%%u:无符号整型\n");
-	printf("%%g:浮点型\n");
-	printf("%%lf:双精度浮点型\n");
-	printf("%%ld:长整型\n");
-	printf("%%lu:无符号长整型\n");
-	printf("%%hd:短整型\n");
-	printf("%%hu:无符号短整型\n");
+void m2_2_1(void) {   //1.程序结构
+	system("cls");
+	printf("\n\n    程序结构\n\n");
+	printf("程序结构：程序由函数组成，函数由语句组成，语句由表达式组成。\n");
+	printf("例：\n");
+	printf("int main(void)\n");
+	printf("{\n");
+	printf("    int a,b,c;\n");
+	printf("    a=1;\n");
+	printf("    b=2;\n");
+	printf("    c=a+b;\n");
+	printf("    printf(\"c=%d\\n\",c);\n");
+	printf("    return 0;\n");
+	printf("}\n");
+	printf("注：程序由main函数组成，main函数由语句组成，语句由表达式组成。\n");
 	getchar();
 }
-void m2_2_2(void) {  //2.键盘输入scanf()函数
-	system("cls");     //调用系统命令，清屏
-	printf("\n\n    键盘输入scanf()函数\n\n");
-	printf("scanf()函数的格式：\n");
-	printf("scanf(\"格式串\",变量地址表);\n");
-	printf("scanf()函数的功能：\n");
-	printf("从键盘输入数据，按格式串的格式，将数据存入变量地址表中。\n");
-	printf("scanf()函数的返回值：\n");
-	printf("成功返回读入的数据项数，失败返回0。\n");
-	printf("scanf()函数的注意事项：\n");
-	printf("格式串中的格式符与变量地址表中的变量一一对应。\n");
-	getchar();
-
-}
-void m2_2_3(void) {  //3.屏幕输出printf()函数
-	system("cls");     //调用系统命令，清屏
-	printf("\n\n    屏幕输出printf()函数\n\n");
-	printf("printf()函数的格式：\n");
-	printf("printf(\"格式串\",变量表);\n");
-	printf("printf()函数的功能：\n");
-	printf("按格式串的格式，将变量表中的数据输出到屏幕上。\n");
-	printf("printf()函数的返回值：\n");
-	printf("成功返回输出的字符数，失败返回负值。\n");
-	printf("printf()函数的注意事项：\n");
-	printf("格式串中的格式符与变量表中的变量一一对应。\n");
+void m2_2_2(void) {   //2.语句与复合
+	system("cls");
+	printf("\n\n    语句与复合\n\n");
+	printf("语句：语句是C语言程序的基本单位，语句由表达式组成。\n");
+	printf("例：\n");
+	printf("a=1;\n");
+	printf("注：a=1为表达式，a=1;为语句。\n");
+	printf("复合语句：用花括号括起来的语句序列。\n");
+	printf("例：\n");
+	printf("{\n");
+	printf("    a=1;\n");
+	printf("    b=2;\n");
+	printf("    c=a+b;\n");
+	printf("    printf(\"c=%d\\n\",c);\n");
+	printf("}\n");
+	printf("注：上述语句序列为复合语句。\n");
 	getchar();
 }
-void m2_2_4(void) {  //4.算术运算符
-	system("cls");     //调用系统命令，清屏
-	printf("\n\n    算术运算符\n\n");
-	printf("加法运算符：+\n");
-	printf("减法运算符：-\n");
-	printf("乘法运算符：*\n");
-	printf("除法运算符：/\n");
-	printf("求余运算符：% \n");
-	printf("自增运算符：++\n");
-	printf("自减运算符：--\n");
+void m2_2_3(void) {   //3.ASCll码
+	system("cls");
+	printf("\n\n    ASCll码\n\n");
+	printf("ASCll码：计算机内部用二进制数表示字符，每个字符都有一个对应的二进制数。\n");
+	printf("例：\n");//ASCll码以10进制数表示
+	printf("字符    ASCll码\n");
+	printf("A       65\n");
+	printf("B       66\n");
+	printf("C       67\n");
+	printf("D       68\n");
+	printf("E       69\n");
+	printf("F       70\n");
+	printf("G       71\n");
+	printf("H       72\n");
+	printf("I       73\n");
+	printf("J       74\n");
+	printf("K       75\n");
+	printf("L       76\n");
+	printf("M       77\n");
+	printf("N       78\n");
+	printf("O       79\n");
+	printf("P       80\n");
+	printf("Q       81\n");
+	printf("R       82\n");
+	printf("S       83\n");
+	printf("T       84\n");
+	printf("U       85\n");
+	printf("V       86\n");
+	printf("W       87\n");
+	printf("X       88\n");
+	printf("Y       89\n");
+	printf("Z       90\n");
+	printf("注：上述为大写字母的ASCll码。\n");
 	getchar();
 }
-void m2_2_5(void) {  //5.逻辑运算符
-	system("cls");     //调用系统命令，清屏
-	printf("\n\n    逻辑运算符\n\n");
-	printf("逻辑与运算符：&&\n");
-	printf("逻辑或运算符：||\n");
-	printf("逻辑非运算符：!\n");
+void m2_2_4(void) {   //4.周长与面积
+	system("cls");
+	printf("\n\n    周长与面积\n\n");
+	printf("周长与面积：\n");
+	printf("周长=2*（长+宽）\n");
+	printf("面积=长*宽\n");
+	printf("例：\n");
+	printf("int main(void)\n");
+	printf("{\n");
+	printf("    int a,b,c,s;\n");
+	printf("    a=3;\n");
+	printf("    b=4;\n");
+	printf("    c=2*(a+b);\n");
+	printf("    s=a*b;\n");
+	printf("    printf(\"c=%d\\n\",c);\n");
+	printf("    printf(\"s=%d\\n\",s);\n");
+	printf("    return 0;\n");
+	printf("}\n");
+	printf("注：上述程序计算长为3，宽为4的矩形的周长与面积。\n");
 	getchar();
-
 }
-void m2_2_6(void) {  //6.关系运算符
-	system("cls");     //调用系统命令，清屏
-	printf("\n\n    关系运算符\n\n");
-	printf("大于运算符：>\n");
-	printf("小于运算符：<\n");
-	printf("大于等于运算符：>=\n");
-	printf("小于等于运算符：<=\n");
-	printf("等于运算符：==\n");
-	printf("不等于运算符：!=\n");
-	getchar();
-
-}
-void m2_2_7(void) {  //7.位运算符
-	system("cls");     //调用系统命令，清屏
-	printf("\n\n    位运算符\n\n");
-	printf("按位与运算符：&\n");
-	printf("按位或运算符：|\n");
-	printf("按位异或运算符：^\n");
-	printf("按位取反运算符：~\n");
-	printf("左移运算符：<<\n");
-	printf("右移运算符：>>\n");
-	getchar();
-
-
-}
-void m2_2_8(void) {  //8.赋值运算符
-	system("cls");     //调用系统命令，清屏
-	printf("\n\n    赋值运算符\n\n");
-	printf("赋值运算符：=\n");
-	printf("加法赋值运算符：+=\n");
-	printf("减法赋值运算符：-=\n");
-	printf("乘法赋值运算符：*=\n");
-	printf("除法赋值运算符：/=\n");
-	printf("求余赋值运算符：%=\n");
-	printf("左移赋值运算符：<<=\n");
-	printf("右移赋值运算符：>>=\n");
-	printf("按位与赋值运算符：&=\n");
-	printf("按位或赋值运算符：|=\n");
-	printf("按位异或赋值运算符：^=\n");
-	getchar();
-
-}
-void m2_2_9(void) {  //9.运算符优先级
-	system("cls");     //调用系统命令，清屏
-	printf("\n\n    运算符优先级\n\n");
-	printf("优先级：\n");
-	printf("1.() [] -> .\n");
-	printf("2.++ -- ! ~\n");
-	printf("3.* / %\n");
-	printf("4.+ -\n");
-	printf("5.<< >>\n");
-	printf("6.< <= > >=\n");
-	printf("7.== !=\n");
-	printf("8.&\n");
-	printf("9.^\n");
-	printf("10.|\n");
-	printf("11.&&\n");
-	printf("12.||\n");
-	printf("13.?:\n");
-	printf("14.= += -= *= /= %= <<= >>= &= ^= |=\n");
+void m2_2_5(void) {   //5.输出图案
+	system("cls");
+	printf("\n\n    输出图案\n\n");
+	printf("输出图案：\n");
+	printf("例：\n");
+	printf("int main(void)\n");
+	printf("{\n");
+	printf("    printf(\"*****\\n\");\n"); 
+	printf("    printf(\"*****\\n\");\n");
+	printf("    printf(\"*****\\n\");\n");
+	printf("    printf(\"*****\\n\");\n");
+	printf("    printf(\"*****\\n\");\n");
+	printf("    return 0;\n");
+	printf("}\n");
+	printf("注：上述程序输出一个5行5列的星号图案。\n");
 	getchar();
 }
