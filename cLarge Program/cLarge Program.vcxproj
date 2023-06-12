@@ -147,6 +147,9 @@
     <ClCompile Include="menu2_6.cpp" />
     <ClCompile Include="menu2_7.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="开发文档.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

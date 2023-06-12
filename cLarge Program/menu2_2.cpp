@@ -17,6 +17,9 @@ void m2_2_1(void) {   //1.程序结构
 	printf("}\n");
 	printf("注：程序由main函数组成，main函数由语句组成，语句由表达式组成。\n");
 	getchar();
+	//清空输入缓冲区
+    rewind(stdin);
+
 }
 void m2_2_2(void) {   //2.语句与复合
 	system("cls");

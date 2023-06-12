@@ -9,6 +9,7 @@ void m2_1_1(void) {    //1. 数据分类
 	printf(" 每种整形又分为 signed和unsigned \n");
 	printf("故整形细分有六种");
     getchar();
+	rewind(stdin);
 }
 void m2_1_2(void) {    //2. 取值范围
 	system("cls");     //调用系统命令，清屏
@@ -26,6 +27,7 @@ void m2_1_2(void) {    //2. 取值范围
 	printf("double: %e ~ %e\n", DBL_MIN, DBL_MAX);
 	printf("long double: %Le ~ %Le\n", LDBL_MIN, LDBL_MAX);
 	getchar();
+	rewind(stdin);
 } 
 void m2_1_3(void) {    //3. 存储字节
 	system("cls");     //调用系统命令，清屏
@@ -43,6 +45,7 @@ void m2_1_3(void) {    //3. 存储字节
 	printf("double: %d\n", sizeof(double));
 	printf("long double: %d\n", sizeof(long double));
 	getchar();
+	rewind(stdin);
 }
 void m2_1_4(void){      //4.算数算符
 	system("cls");     //调用系统命令，清屏
@@ -56,6 +59,7 @@ void m2_1_4(void){      //4.算数算符
 	printf("自加：++\n");
 	printf("自减：--\n");
 	getchar();
+	rewind(stdin);
 }
 void m2_1_5(void){      //5.类型转换
 	system("cls");     //调用系统命令，清屏
@@ -71,6 +75,7 @@ void m2_1_5(void){      //5.类型转换
 	printf("6.当两个操作数中有一个为short型时，另一个操作数转换为short型\n");
 	printf("7.当两个操作数中有一个为char型时，另一个操作数转换为char型\n");
 	getchar();
+	rewind(stdin);
 }
 void m2_1_6(void) {     //6. I/O类型控制
 	system("cls");     //调用系统命令，清屏
@@ -87,6 +92,7 @@ void m2_1_6(void) {     //6. I/O类型控制
 	printf("gets()     //从键盘输入一个字符串\n");
 	printf("puts()     //向显示器输出一个字符串\n");
 	getchar();
+	rewind(stdin);
 }
 void m2_1_7(void) {  //7.printf函数
 	system("cls");     //调用系统命令，清屏
@@ -112,6 +118,7 @@ void m2_1_7(void) {  //7.printf函数
 	printf("printf(\"%%s\",a);  //输出字符串\n");
 	printf("printf(\"%%p\",a);  //输出指针\n");
 	getchar();
+	rewind(stdin);
 }
 void m2_1_8(void) {  //8.scanf()函数
 	system("cls");     //调用系统命令，清屏
@@ -137,6 +144,7 @@ void m2_1_8(void) {  //8.scanf()函数
 	printf("scanf(\"%%s\",&a);  //输入字符串\n");
 	printf("scanf(\"%%p\",&a);  //输入指针\n");
 	getchar();
+	rewind(stdin);
 }
 void m2_1_9(void) {   //9.字符I/O
 	system("cls");     //调用系统命令，清屏
@@ -147,4 +155,5 @@ void m2_1_9(void) {   //9.字符I/O
 	printf("gets();\n");
 	printf("puts();\n");
 	getchar();
+	rewind(stdin);
 }

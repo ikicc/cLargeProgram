@@ -1,6 +1,8 @@
 //cProgrammSys.cpp
 #include <iostream>
 #include <stdio.h>
+//美化一下程序界面
+
 
 void local(int, int);
 
@@ -145,7 +147,7 @@ void menu2_3(void) {
 		}
 	}
 }
-
+	
 //=================
 //2.4分支的一级菜单
 void dispMenu2_4(void) {

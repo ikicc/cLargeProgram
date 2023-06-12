@@ -12,6 +12,7 @@ void m2_4_1(void) { //1.while语句
 	printf("    c=a;\n");
 	printf("注：如果a<b为真，则执行c=a，否则跳出循环。\n");
 	getchar();
+	rewind(stdin);
 }
 void m2_4_2(void) { //2.do-while语句
 	system("cls");
@@ -26,6 +27,7 @@ void m2_4_2(void) { //2.do-while语句
 	printf("while(a<b);\n");
 	printf("注：先执行c=a，再判断a<b，为真时继续执行c=a，否则跳出循环。\n");
 	getchar();
+	rewind(stdin);
 }
 void m2_4_3(void) {   //3.for语句
 	system("cls");
@@ -38,6 +40,7 @@ void m2_4_3(void) {   //3.for语句
 	printf("    c=a;\n");
 	printf("注：先执行i=0，再判断i<10，为真时执行c=a，再执行i++，再判断i<10，为真时执行c=a，否则跳出循环。\n");
 	getchar();
+	rewind(stdin);
 }
 void m2_4_4(void) {   //4.break语句
 	system("cls");
@@ -50,6 +53,7 @@ void m2_4_4(void) {   //4.break语句
 	printf("        break;\n");
 	printf("注：如果a<b为真，再判断a==c，为真时跳出循环。\n");
 	getchar();
+	rewind(stdin);
 }
 void m2_4_5(void) {   //5.continue语句
 	system("cls");
@@ -62,6 +66,7 @@ void m2_4_5(void) {   //5.continue语句
 	printf("        continue;\n");
 	printf("注：如果a<b为真，再判断a==c，为真时跳出循环，继续下一次循环。\n");
 	getchar();
+	rewind(stdin);
 }
 void m2_4_6(void) {   //6.goto语句
 	system("cls");
@@ -74,6 +79,7 @@ void m2_4_6(void) {   //6.goto语句
 	printf("        goto label;\n");
 	printf("注：如果a<b为真，再判断a==c，为真时跳转到label处。\n");
 	getchar();
+	rewind(stdin);
 }
 void m2_4_7(void) {   //7.无限循环
 	system("cls");
@@ -88,6 +94,7 @@ void m2_4_7(void) {   //7.无限循环
 	printf("    c=a;\n");
 	printf("注：永远执行c=a。\n");
 	getchar();
+	rewind(stdin);
 }
 void m2_4_8(void) {   //8.循环嵌套
 	system("cls");
@@ -102,5 +109,6 @@ void m2_4_8(void) {   //8.循环嵌套
 	printf("        c=a;\n");
 	printf("先执行内层循环，再执行外层循环，内层循环执行完毕后再执行外层循环，直到外层循环执行完毕。\n");
 	getchar();
+	rewind(stdin);
 }
 

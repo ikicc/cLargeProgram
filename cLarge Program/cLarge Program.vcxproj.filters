@@ -69,4 +69,7 @@
       <Filter>资源文件</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="开发文档.txt" />
+  </ItemGroup>
 </Project>

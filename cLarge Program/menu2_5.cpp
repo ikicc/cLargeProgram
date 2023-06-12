@@ -20,6 +20,7 @@ void m2_5_1(void) {   //1.函数的定义
 	printf("}\n");
 	printf("注：max是函数名，a和b是参数，函数体中的语句是函数的功能。\n");
 	getchar();
+	rewind(stdin);
 
 }
 void m2_5_2(void) {   //2.函数的调用
@@ -32,6 +33,7 @@ void m2_5_2(void) {   //2.函数的调用
 	printf("max(a,b);\n");
 	printf("注：max是函数名，a和b是参数。\n");
 	getchar();
+	rewind(stdin);
 }
 void m2_5_3(void) {   //3.函数的参数传递
 	system("cls");
@@ -59,6 +61,7 @@ void m2_5_3(void) {   //3.函数的参数传递
 	printf("}\n");
 	printf("注：max函数中的a和b是形参，main函数中的a和b是实参。\n");
 	getchar();
+	rewind(stdin);
 }
 void m2_5_4(void) {   //4.函数的返回值
 	system("cls");
@@ -86,6 +89,7 @@ void m2_5_4(void) {   //4.函数的返回值
 	printf("}\n");
 	printf("注：max函数中的return a;和return b;是值返回，main函数中的c=max(a,b);是值传递。\n");
 	getchar();
+	rewind(stdin);
 }
 void m2_5_5(void) {   //5.函数的递归调用
 	system("cls");
@@ -109,6 +113,7 @@ void m2_5_5(void) {   //5.函数的递归调用
 	printf("}\n");
 	printf("注：fact函数中的fact(n-1)是函数的递归调用。\n");
 	getchar();
+	rewind(stdin);
 }
 void m2_5_6(void) {   //6.函数的声明
 	system("cls");
@@ -134,6 +139,7 @@ void m2_5_6(void) {   //6.函数的声明
 	printf("}\n");
 	printf("注：max函数的声明在main函数之前。\n");
 	getchar();
+	rewind(stdin);
 }
 void m2_5_7(void) {    //7.函数的声明
 	system("cls");
@@ -159,5 +165,6 @@ void m2_5_7(void) {    //7.函数的声明
 	printf("}\n");
 	printf("注：max函数的声明在main函数之前。\n");
 	getchar();
+	rewind(stdin);
 
 }

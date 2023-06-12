@@ -16,6 +16,7 @@ void m2_3_1(void) { //1.if语句
 	printf("    c=b;\n");
 	printf("注：如果a>b为真，则执行c=a，否则执行c=b。\n");
 	getchar();
+	rewind(stdin);
 }
 
 void m2_3_2(void) {  //2.if-else语句
@@ -37,6 +38,7 @@ void m2_3_2(void) {  //2.if-else语句
 	printf("    c=0;\n");
 	printf("注：如果a>b为真，则执行c=a，否则判断a<b，为真则执行c=b，否则执行c=0。\n");
 	getchar();
+	rewind(stdin);
 }
 void m2_3_3(void) {  //3.if-else if语句
 	system("cls");
@@ -61,6 +63,7 @@ void m2_3_3(void) {  //3.if-else if语句
 	printf("    c=-1;\n");
 	printf("注：如果a>b为真，则执行c=a，否则判断a<b，为真则执行c=b，否则判断a==b，为真则执行c=0，否则执行c=-1。\n");
 	getchar();
+	rewind(stdin);
 }
 void m2_3_4(void) {  //4.switch语句
 	system("cls");
@@ -84,6 +87,7 @@ void m2_3_4(void) {  //4.switch语句
 	printf("}\n");
 	printf("注：如果a=1，则输出a=1，如果a=2，则输出a=2，如果a=3，则输出a=3，如果a不等于1、2、3，则输出a=0。\n");
 	getchar();
+	rewind(stdin);
 }
 void m2_3_5(void) {  //5.goto语句
 	system("cls");
@@ -96,6 +100,7 @@ void m2_3_5(void) {  //5.goto语句
 	printf("a:printf(\"b\");\n");
 	printf("注：输出b。\n");
 	getchar();
+	rewind(stdin);
 }
 void m2_3_6(void) {  //6.break语句
 	system("cls");
@@ -111,6 +116,7 @@ void m2_3_6(void) {  //6.break语句
 	printf("}\n");
 	printf("注：输出01234。\n");
 	getchar();
+	rewind(stdin);
 }
 void m2_3_7(void) {  //7.continue语句
 	system("cls");
@@ -126,4 +132,5 @@ void m2_3_7(void) {  //7.continue语句
 	printf("}\n");
 	printf("注：输出01236789。\n");
 	getchar();
+	rewind(stdin);
 }
