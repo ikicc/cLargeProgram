@@ -11,6 +11,7 @@ void m2_6_1(void) {   //1.数组的定义
 	printf("例：\n");
 	printf("int a[10];\n");
 	printf("注：a是数组名，10是数组的长度。\n");
+	printf("\n按回车键返回...");
 	getchar();
 	rewind(stdin);
 }
@@ -23,6 +24,7 @@ void m2_6_2(void) {   //2.数组的初始化
 	printf("例：\n");
 	printf("int a[10]={1,2,3,4,5,6,7,8,9,10};\n");
 	printf("注：a是数组名，10是数组的长度，1,2,3,4,5,6,7,8,9,10是数组的元素。\n");
+	printf("\n按回车键返回...");
 	getchar();
 	rewind(stdin);
 }
@@ -36,6 +38,7 @@ void m2_6_3(void) {   //3.数组的引用
 	printf("int a[10]={1,2,3,4,5,6,7,8,9,10};\n");
 	printf("a[0]=a[1]+a[2];\n");
 	printf("注：a是数组名，10是数组的长度，1,2,3,4,5,6,7,8,9,10是数组的元素。\n");
+	printf("\n按回车键返回...");
 	getchar();
 	rewind(stdin);
 }
@@ -51,6 +54,7 @@ void m2_6_4(void) {   //4.数组的输入输出
 	printf("scanf(\"%d\",&a[0]);\n");
 	printf("printf(\"%d\",a[0]);\n");
 	printf("注：a是数组名，10是数组的长度，0是数组的下标。\n");
+	printf("\n按回车键返回...");
 	getchar();
 	rewind(stdin);
 }
@@ -63,6 +67,7 @@ void m2_6_5(void) {   //5.一维数组
 	printf("例：\n");
 	printf("int a[10];\n");
 	printf("注：a是数组名，10是数组的长度。\n");
+	printf("\n按回车键返回...");
 	getchar();
 	rewind(stdin);
 }
@@ -75,6 +80,7 @@ void m2_6_6(void) {   //6.二维数组
 	printf("例：\n");
 	printf("int a[10][10];\n");
 	printf("注：a是数组名，10是数组的行数，10是数组的列数。\n");
+	printf("\n按回车键返回...");
 	getchar();
 	rewind(stdin);
 }
@@ -87,6 +93,7 @@ void m2_6_7(void) {   //7.字符数组
 	printf("例：\n");
 	printf("char a[10];\n");
 	printf("注：a是数组名，10是数组的长度。\n");
+	printf("\n按回车键返回...");
 	getchar();
 	rewind(stdin);
 }

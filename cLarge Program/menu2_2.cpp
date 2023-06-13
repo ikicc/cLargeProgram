@@ -38,6 +38,8 @@ void m2_2_2(void) {   //2.语句与复合
 	printf("}\n");
 	printf("注：上述语句序列为复合语句。\n");
 	getchar();
+	rewind(stdin);
+
 }
 void m2_2_3(void) {   //3.ASCll码
 	system("cls");
@@ -73,6 +75,7 @@ void m2_2_3(void) {   //3.ASCll码
 	printf("Z       90\n");
 	printf("注：上述为大写字母的ASCll码。\n");
 	getchar();
+	rewind(stdin);
 }
 void m2_2_4(void) {   //4.周长与面积
 	system("cls");
@@ -94,6 +97,7 @@ void m2_2_4(void) {   //4.周长与面积
 	printf("}\n");
 	printf("注：上述程序计算长为3，宽为4的矩形的周长与面积。\n");
 	getchar();
+	rewind(stdin);
 }
 void m2_2_5(void) {   //5.输出图案
 	system("cls");
@@ -111,4 +115,5 @@ void m2_2_5(void) {   //5.输出图案
 	printf("}\n");
 	printf("注：上述程序输出一个5行5列的星号图案。\n");
 	getchar();
+	rewind(stdin);
 }

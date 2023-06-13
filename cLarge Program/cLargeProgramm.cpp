@@ -1,8 +1,8 @@
 //cProgrammSys.cpp
+//做一个图形化界面
+
 #include <iostream>
 #include <stdio.h>
-//美化一下程序界面
-
 
 void local(int, int);
 

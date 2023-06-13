@@ -11,6 +11,7 @@ void m2_7_1(void) {   //1.指针的定义
 	printf("例：\n");
 	printf("int *p;\n");
 	printf("注：p是指针名，int *是类型说明符。\n");
+	printf("\n按回车键返回...");
 	getchar();
 	rewind(stdin);
 }
@@ -25,6 +26,7 @@ void m2_7_2(void) {   //2.指针的使用
 	printf("int *p;\n");
 	printf("p = &a;\n");
 	printf("注：p是指针名，&a是a的地址。\n");
+	printf("\n按回车键返回...");
 	getchar();
 	rewind(stdin);
 }
@@ -42,6 +44,7 @@ void m2_7_3(void) {   //3.指针的输入输出
 	printf("printf(\"%%p\",p);\n");
 	printf("scanf(\"%%p\",&p);\n");
 	printf("注：p是指针名，&p是p的地址。\n");
+	printf("\n按回车键返回...");
 	getchar();
 	rewind(stdin);
 }
@@ -55,6 +58,7 @@ void m2_7_4(void) {   //4.指针与数组
 	printf("int *p;\n");
 	printf("p = a;\n");
 	printf("注：a是数组名，p是指针名。\n");
+	printf("\n按回车键返回...");
 	getchar();
 	rewind(stdin);
 }
@@ -67,6 +71,7 @@ void m2_7_5(void) {   //5.指针与函数
 	printf("int *p;\n");
 	printf("p = main;\n");
 	printf("注：p是指针名，main是main函数的地址。\n");
+	printf("\n按回车键返回...");
 	getchar();
 	rewind(stdin);
 }
@@ -80,6 +85,7 @@ void m2_7_6(void) {   //6.指针与指针
 	printf("int **q;\n");
 	printf("q = &p;\n");
 	printf("注：p是指针名，q是指针名，&p是p的地址。\n");
+	printf("\n按回车键返回...");
 	getchar();
 	rewind(stdin);
 }
@@ -92,6 +98,7 @@ void m2_7_7(void) {   //7.main函数的参数
 	printf("例：\n");
 	printf("int main(int argc,char *argv[])\n");
 	printf("注：argc是参数个数，argv是参数数组。\n");
+	printf("\n按回车键返回...");
 	getchar();
 	rewind(stdin);
 }
